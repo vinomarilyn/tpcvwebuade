@@ -1,0 +1,90 @@
+.bodyIndex{
+    height: 100%;
+    
+}
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html { 
+    font-size: 62.5%;
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+/* variables */
+:root {
+    /* Colors */
+    --pink: #FCDAFF;
+    --white: #FFFFFF;
+    --pink2: #630584;
+
+
+    /* Fonts */
+    --fontText: 'Roboto', sans-serif;
+    --fontPrimary: 'Inter', sans-serif;
+    
+}
+/* HEADER */
+.headerContainer{
+    background-color: var(--pink);
+    width: 100%;
+    height: 70px;
+}
+.headernav{
+    font-family: var(--fontPrimary);
+    display: flex;
+    justify-content: flex-end;
+}
+.headernav li{
+    margin: 2px;
+    margin-top: 35px;
+    padding: 3px;
+    
+}
+.headernav li a{
+    color: var(--pink2);
+    
+}
+.headernav li a:hover{
+    color: #FFFFFF;
+}
+/* Images */
+.imgIndex{
+    width: 100%;
+    height: 60%;
+    border: solid black;
+ }
+ .imgIndex img{
+     width: 100%;
+     height: 100%;
+ }
+ .mainIndex{
+     width: 100%;
+     height: 100%;
+ }
+/* FOOTER */
+.footerBox{
+    background-color: var(--pink);
+    width: 100%;
+    height: 100%;
+    font-family: var(--fontPrimary);
+    color: var(--pink2);
+}
+.footerBox h3{
+    padding: 10px;
+    padding-bottom: 55px;
+}
+.footerBox p{
+    font-size: 12px;
+}
