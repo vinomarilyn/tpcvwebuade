@@ -8,4 +8,4 @@
 
 ### **Link de la pagina:**
 - [tp cv web](### **Inspiración de referentes en el mercado:**
-- [LA MOCHA](https://www.lamocha.com.tw/default.asp) -> (link)) -> (Vista del sitio )
+- [CV WEB](https://vinomarilyn.github.io/tpcvwebuade/index.html) -> (link)) -> (Vista del sitio )
