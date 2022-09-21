@@ -1,6 +1,6 @@
 .bodyIndex{
     height: 100%;
-    background-image: url(../images/index.jpg);
+    background-image: url(/public/images/index.jpg);
     background-size: 100%;
 }
 /* General */
