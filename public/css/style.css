@@ -1,6 +1,7 @@
 .bodyIndex{
     height: 100%;
-    
+    background-image: url(../images/index.jpg);
+    background-size: 100%;
 }
 /* General */
 * {
@@ -61,9 +62,13 @@ li {
 }
 /* Images */
 .imgIndex{
-   width: 100%;
-   height: 60%;
-   border: solid black;
+   width: 90%;
+   height: 70px;
+   border: solid #FFFFFF;
+   background-color: #FFFFFF;
+   border-radius: 8px;
+   margin: 20px 0 350px;/* modifica el main */
+   
 }
 .imgIndex img{
     width: 100%;
@@ -73,6 +78,22 @@ li {
     width: 100%;
     height: 100%;
 }
+ /* titulo */
+ .mainIndex h2{
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight:bold ;
+    background-color: var(--pink2);
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 70%;
+ }
+ .mainIndex h3{
+    color: #FFFFFF;
+    font-size: 22;
+    font-weight:bold ;
+    width: 70%;
+ }
 /* FOOTER */
 .footerBox{
     background-color: var(--pink);

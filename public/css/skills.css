@@ -1,8 +1,7 @@
 .bodyIndex{
-    color: aqua;
-    background-color: blue;
     height: 100%;
-    
+    background-image: url(../images/habilidades.png);
+    background-size: 100%;
 }
 /* General */
 * {
@@ -13,7 +12,7 @@
 
 /* html { 
     font-size: 62.5%;
-} */
+}*/
 
 a {
     text-decoration: none;
@@ -61,19 +60,32 @@ li {
 .headernav li a:hover{
     color: #FFFFFF;
 }
-/* Images */
+/* items */
 .imgIndex{
-    width: 100%;
-    height: 60%;
-    border: solid black;
+    width: 90%;
+    height: 70%;
+    border: solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 20px;
+    
  }
- .imgIndex img{
-     width: 100%;
-     height: 100%;
+ .imgIndex li{
+    margin: 15px;
  }
  .mainIndex{
      width: 100%;
-     height: 100%;
+     height: 700px;
+ }
+   /* titulo */
+   .mainIndex h2{
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight:bold ;
+    background-color: var(--pink2);
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 65%;
  }
 /* FOOTER */
 .footerBox{
