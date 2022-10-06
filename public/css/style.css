@@ -119,6 +119,13 @@ li {
     display: flex;
     justify-content: center;
 }
+
+.labelM{
+    display: none;
+}
+.inputM{
+    display: none;
+}
 @media ( max-width: 992px ) /*tablet*/
  {
  /* header */
@@ -130,4 +137,33 @@ li {
 .imgIndex{
     flex-direction: column-reverse;
  }
+ .inputM:checked ~ ul{
+    display: block;
  }
+ .inputM:checked ~ .labelM{
+    background: #630584;
+ }
+ .labelM:hover{
+    background: #CE93D8;
+}.labelM{
+    box-sizing: border-box;
+    display: block;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    background-color: #FCDAFF;
+}
+.headernav{
+    display: none;
+    background-color:#FCDAFF;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+} 
+ }
+ /*  */
